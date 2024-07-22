@@ -178,3 +178,8 @@ main {
   background-color: var(--kok);
   color: var(--oq);
 }
+
+.error{
+  color: red;
+  font-size: 1.3rem;
+}
