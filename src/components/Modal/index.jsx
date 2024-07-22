@@ -4,8 +4,8 @@ import styles from "./index.module.css";
 function Modal() {
 
     document.addEventListener("click", (event)=>{
-        if(event.target.className=="_modal_1vax0_1"){
-            document.querySelector("._modal_1vax0_1").style.display="none";
+        if(event.target.className=="_modal_1v3qj_1"){
+            document.querySelector("._modal_1v3qj_1").style.display="none";
         }
     })
 
