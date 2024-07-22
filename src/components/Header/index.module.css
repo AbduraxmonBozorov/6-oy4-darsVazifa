@@ -1,0 +1,75 @@
+header {
+  background-color: var(--kok);
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+
+
+
+nav {
+  max-width: 1140px;
+  margin: 0 auto;  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+nav ul {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  margin: 20px 0;
+}
+
+
+nav ul li a {
+  /* border: 1px solid white; */
+  color: var(--oq);
+  text-transform: capitalize;
+  font-size: 1.2em;
+  /* font-family:monospace; */
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 70px;
+}
+
+
+#lang {
+  background-color: transparent;
+  border: 1px solid var(--kok);
+  padding-right: 20px;
+  color: var(--oq);
+  font-size: 1.2em;
+}
+
+#lang option{
+  background-color: var(--kok);
+  color: var(--oq);
+}
+
+#lang + button {
+  border: 1px solid var(--oq);
+  background-color: var(--oq);
+  padding: 8px 24px;
+  border-radius: 12px;
+  text-transform: capitalize;
+  color: var(--kok);
+  font-size: 1.2em;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+button.boshlash:hover{
+  background-color: var(--kok)!important;
+  color: var(--oq)!important;
+}

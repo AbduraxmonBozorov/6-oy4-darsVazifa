@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+  --kok: #5361E4;
+  --oq: #F8F8FF;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--oq);
+  min-height: 100vh;
+}
+

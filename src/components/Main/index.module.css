@@ -1,0 +1,180 @@
+
+main {
+  border: 1px solid blue;
+  min-height: calc(100vh - 10vh);
+}
+
+/* start container style */
+
+.container {
+  /* border: 1px solid red; */
+  border-radius: 24px;
+  max-width: 778px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 32px 38px;
+  background-color: #ffffff;
+}
+
+
+.aboutCompany h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41.6px;
+  color: #2A2941;
+}
+
+.aboutCompany p {
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 20.8px;
+  color: #B3B3B3;
+}
+
+/*  */
+
+.uploadFile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.custom-file-input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 0 30px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: #5361E4;
+}
+
+.custom-file-input+.custom-file-label {
+  /* Example styles */
+  /* color: #333; */
+  background-color: #fff;
+  /* border-color: #ccc; */
+}
+
+.custom-file-input+.custom-file-label:hover {
+  border: 1px solid transparent;
+  border-color: #ccc;
+
+}
+
+.companyName,
+.companyEmail,
+.companyTel,
+.companyLinks,
+.companyCountry,
+.companyManzil,
+.employeesCount,
+.describtion {
+  margin-top: 20px;
+}
+
+.formLabel {
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.71px;
+}
+
+.formSpan {
+  color: red;
+}
+
+.form-input,
+.form-select {
+  display: block;
+  width: 100%;
+  border: 1px solid #E3E3E3;
+  border-radius: 16px;
+  padding: 18px;
+  margin-top: 10px;
+}
+
+.tel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.tel select {
+  display: inline-block;
+  width: auto;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tel input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.companyLinks>.links {
+  margin-top: 10px;
+}
+
+.icons {
+  border: 1px solid #E3E3E3;
+  border-radius: 12px;
+  padding: 18px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+
+
+.links img:not(:last-child) {
+  margin-right: 5px;
+}
+
+
+.companyCountry {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companyCountry div {
+  width: 48%;
+}
+
+.describtion textarea {
+  resize: none;
+}
+
+.btns {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  padding: 20px 40px;
+  background: #F8F8F8;
+  color: #6E6D77;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.btns button:last-child {
+  background-color: var(--kok);
+  color: var(--oq);
+}
